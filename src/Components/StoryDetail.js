@@ -1,7 +1,13 @@
-const StoryDetail = () => {
+const StoryDetail = ({ story }) => {
+    if (!story) return null;
 
     return (
-        <p>Story Detail</p>
+        <div>
+            <h3>{story.title}</h3>
+            <p>By: {story.by}</p>
+            <a href={story.url}>Link to article</a>
+        </div>
+        
     )
 }
 
