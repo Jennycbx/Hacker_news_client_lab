@@ -3,9 +3,10 @@ const StoryDetail = ({ story }) => {
 
     return (
         <div>
-            <h3>{story.title}</h3>
+            <br/>
+            <br/>
+            <a id="article-link" href={story.url}>{story.title}</a>
             <p>By: {story.by}</p>
-            <a href={story.url}>Link to article</a>
         </div>
         
     )

@@ -7,6 +7,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#header {
+  color: white;
+  background-color: red;
+  padding: 30px;
+}
+
+select {
+  background-color:steelblue;
+  color: white;
+  padding: 12px;
+
+}
+
+
+#article-link {
+  text-decoration: none;
+}
+
+#article-link:hover {
+  font-weight: bold;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

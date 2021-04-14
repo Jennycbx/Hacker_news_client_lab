@@ -42,7 +42,7 @@ const StoryContainer = () => {
 	
     return (
         <>
-			<h1>Hacker News Story Finder</h1>
+			<h1 id="header">Hacker News Story Finder</h1>
             <StorySelector
 				stories={stories} 
 				onStorySelect={changeSelectedStoryId}/>
